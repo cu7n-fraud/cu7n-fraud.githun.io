@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Info Page</title>
     <style>
-        /* Background and styling */
         body {
             margin: 0;
             padding: 0;
@@ -20,7 +19,6 @@
             overflow: hidden;
         }
 
-        /* Container styling */
         .container {
             background: rgba(0, 0, 0, 0.6);
             padding: 20px;
@@ -51,7 +49,6 @@
             font-weight: bold;
         }
 
-        /* Button styles */
         .button {
             display: inline-block;
             margin: 10px;
@@ -71,7 +68,6 @@
             transform: scale(1.1);
         }
 
-        /* Rain effect */
         .rain {
             position: absolute;
             width: 100%;
@@ -102,22 +98,18 @@
     </style>
 </head>
 <body>
-    <!-- Rain effect -->
     <div class="rain"></div>
 
-    <!-- Content -->
     <div class="container">
         <h2>Welcome</h2>
         <p>Made by cu7n.</p>
 
-        <!-- Buttons -->
         <a href="https://fraud.lol/cu7n" class="button">Social</a>
         <a href="dx.html" class="button">Dox</a>
         <a href="https://www.tiktok.com/@vfxnw" class="button">TikTok</a>
     </div>
 
     <script>
-        // Create rain drops dynamically
         const rainContainer = document.querySelector('.rain');
 
         function createRain() {
